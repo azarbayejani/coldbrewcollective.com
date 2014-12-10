@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Coldbrew Collective</title>
+  <meta name="description" content="A Seattle art collective">
+  <meta name="keywords" content="seattle,experimental,art,noise,electronics,processing">
+
+  <link rel="stylesheet" href="/components/bootstrap/dist/css/bootstrap.css" />
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic|Raleway' rel='stylesheet' type='text/css'>
+  <script type="text/javascript" src="/components/jquery/jquery.js"></script>
+  <style>
+  body{
+    margin: 0;
+    background-color: #22313F;
+    height:100%;
+    min-height:100%;
+
+  }
+
+  p {
+    font-family: "Open Sans", sans-serif;
+    color: #ECF0F1;
+  }
+
+  .logo {
+    font-family: "Raleway", sans-serif;
+    color: #F22613;
+  }
+
+  h1,h2,h3,h4,h5 {
+    font-family: "Open Sans", sans-serif;
+    font-weight:100;
+    color: #ECF0F1;
+
+  }
+
+  .nav {
+    font-size: 1.3em;
+    color: #F22613;
+  }
+
+  .raleway {
+    font-family: "Raleway", sans-serif;
+  }
+
+  .separators:after {
+    content: " \/";
+  }
+
+  .email {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px black solid;
+  }
+
+  a .header-link {
+    text-decoration: none;
+    color: #F22613;
+  }
+
+  * {
+    color: #ECF0F1;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  hr {
+    border-color:black;
+  }
+
+  .embed-container iframe,
+  .embed-container object,
+  .embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+  }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <div class="col-md-8 col-md-offset-2">
+      <a href="/"><h1 class="logo">COLDBREW<br/>COLLECTIVE</h1></a>
+      <div class="nav">
+        <!--
+        <span class="separator">
+          <a href="/">About Us</a>
+        </span>
+      -->
+        <a href="/releases"><span class="header-link separator raleway">Releases</span></a> /
+        <a href="/media"><span class="header-link separator raleway">Media</span></a> /
+        <a href="mailto:coldbrewcollective@gmail.com"><span class="header-link separator raleway">Contact</span></a> /
+    </div>
+    <hr>
+    {{ content }}
+  </div>
+
+</div>
+</body>
+</html>

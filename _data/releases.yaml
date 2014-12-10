@@ -1,0 +1,35 @@
+{
+
+"with_images": [
+  {
+    "title": "DREAMWEEP // WARWOMB",
+    "annotation": "Cassette & Digital",
+    "image": "//i1.sndcdn.com/artworks-000084749728-420r1u-t500x500.jpg",
+    "link": "https://soundcloud.com/slowdrips/dreamweepwarwomb",
+    "artist": "Slow Drips"
+  },
+  {
+    "title": "Vision of 2020",
+    "annotation": "VHS",
+    "image": "/assets/img/vision-of-2020.png",
+    "tags": "img_release",
+    "artist": "'sighup'"
+  },
+  {
+    "title": "Pizza Rx",
+    "annotation": "Digital",
+    "image": "//i1.sndcdn.com/artworks-000062014066-nfigeu-t500x500.jpg",
+    "link": "https://soundcloud.com/slowdrips/sets/pizza-rx",
+    "artist": "Slow Drips"
+  }
+],
+
+"no_images": [
+  {
+    "title": "Citizens for Armed Rebellion (Split)",
+    "annotation": "Limited Pressing of 10 Cassettes",
+    "artist": "Test Section / 'sighup'",
+  }
+]
+
+}

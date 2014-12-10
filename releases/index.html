@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<div class="row">
+{% for release in site.data.releases.with_images %}
+  <div class="release col-xs-12 col-md-4">
+    <div class="release-img">
+      {% if release.link %}
+      <a href="{{release.link}}">
+      {% endif %}
+        <img class="img-responsive" src="{{ release.image }}" alt="">
+      {% if release.link %}
+      </a>
+      {% endif %}
+    </div>
+    {% if release.link %}
+      <a href="{{ release.link }}">
+    {% endif %}
+        <h3>{{ release.artist}} - {{ release.title }}</h3>
+        <h4>{{ release.annotation }}</h4>
+    {% if release.link %}
+      </a>
+    {% endif %}
+  </div>
+{% endfor %}
+</div>
+
+<hr style="border-color:gray; width: 40%;">
+
+<div class="row">
+  <div class="col-xs-12">
+
+    <h3><u>Other Releases</u></h3>
+
+    {% for release in site.data.releases.no_images %}
+    <div class="release-text">
+      <span class="lead">{{ release.artist }} - {{ release.title }}</span>
+      <p/>
+      {{ release.annotation }}
+    </div>
+    {% endfor %}
+  </div>
+</div>

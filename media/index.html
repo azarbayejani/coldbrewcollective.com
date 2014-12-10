@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<script src="/components/oembed/jquery.oembed.min.js"></script>
+
+{% for media in site.data.media %}
+  <div class="media">
+    <div class="embed-container">
+      <a href="{{ media.media }}" class="oembed">{{ media.type }}</a>
+    </div>
+    <h3>{{ media.caption }}</h3>
+  </div>
+{% endfor %}
+
+<script>
+  $("a.oembed").oembed();
+</script>
