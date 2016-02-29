@@ -2,11 +2,69 @@
 
 "with_images": [
   {
-    "title": "DREAMWEEP // WARWOMB",
-    "annotation": "Cassette & Digital",
-    "image": "//i1.sndcdn.com/artworks-000084749728-420r1u-t500x500.jpg",
-    "link": "https://soundcloud.com/slowdrips/dreamweepwarwomb",
-    "artist": "Slow Drips"
+    "title": "UNTITLED",
+    "annotation": "VHS",
+    "image": "/assets/img/novacom.png",
+    "link": "https://www.youtube.com/watch?v=NaSZH-W2KvA",
+    "artist": "Novacom"
+  },
+   {
+    "title": "BAT FOR PUBLIC VIEWING",
+    "annotation": "VHS",
+    "image": "/assets/img/bat.png",
+    "link": "https://www.youtube.com/watch?v=I7_wrBRV5to",
+    "artist": "BAT"
+  },
+  {
+    "title": "Tossed Aside",
+    "annotation": "Video",
+    "image": "/assets/img/wbaer.png",
+    "link": "https://www.youtube.com/watch?v=3-oW8Jyp12U",
+    "artist": "w. baer"
+  },
+  {
+    "title": "Daymares (Symptoms Come To Light)",
+    "annotation": "Video",
+    "image": "/assets/img/helm2.png",
+    "link": "https://www.youtube.com/watch?v=hY8aMsZt2uE",
+    "artist": "The Helm"
+  },
+  {
+    "title": "'retrospective'",
+    "annotation": "VHS",
+    "image": "/assets/img/asdfs.png",
+    "link": "https://www.youtube.com/watch?v=kWJbnqOiQm4",
+    "artist": "as-dfs"
+  },
+  {
+    "title": "Untitled",
+    "annotation": "VHS",
+    "image": "/assets/img/simic.png",
+    "link": "https://www.youtube.com/watch?v=KTrsZfnoQzk",
+    "artist": "Simic"
+  },
+
+  {
+    "title": "Satmor",
+    "annotation": "Video",
+    "image": "/assets/img/raica.png",
+    "link": "https://www.youtube.com/watch?v=2KyotQLgJ_8",
+    "artist": "Raica"
+  },
+
+  {
+    "title": "Secrets",
+    "annotation": "Video",
+    "image": "/assets/img/lilac.png",
+    "link": "https://www.youtube.com/watch?v=pPGUEkV_AOU",
+    "artist": "Lilac"
+  },
+  {
+    "title": "Hollywood Won't Leave Me Alone",
+    "annotation": "VHS",
+    "image": "/assets/img/marcus.png",
+    "link": "https://www.youtube.com/watch?v=TQfg5PUxndU",
+    "artist": "Marcus Price"
   },
   {
     "title": "Vision of 2020",
